@@ -1,1 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inclusive Sans', sans-serif;
+}
 
+
+/*header*/
+
+.top-container {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 12%;
+}
+
+.logo-header {
+    text-align: center;
+    padding: 80px;
+    font-size: 80px;
+    font-weight: 800;
+    color: rgb(208, 129, 68);
+    text-shadow: 2px 4px rgb(125, 125, 125);
+}
+
+
+/*nav bar*/
+
+.nav-bar {
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#nav-bar-logo {
+    width: 75px;
+    height: 80px;
+    margin-left: 100px;
+    margin-bottom: 15pz;
+}
+
+.nav-bar-name {
+    margin-top: 2%;
+    text-decoration: none;
+    margin-right: 25%;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(208, 129, 68);
+    text-shadow: 1px 2px rgb(125, 125, 125);
+}
+
+.nav-bar-history {
+    margin-top: 25px;
+    width: 105px;
+    height: 45px;
+    background-color: rgb(71, 71, 196);
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-bar-history:hover {
+    border: 2px solid black;
+    transition: 1s;
+}
+
+
+/*main */
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.main-heading {
+    margin-top: 30px;
+    font-size: 40px;
+    position: relative;
+}
+
+.main-input {
+    position: absolute;
+    margin-top: 90px;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.main-input:hover {
+    border: 2px orange solid;
+}
+
+.search-icon {
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 480px;
+    cursor: pointer;
+}
+
+
+/*result*/
+
+.result-info {
+    margin-top: 7%;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(55, 255, 55);
+}
+
+
+/*history section*/
+
+.History-section {
+    margin-top: 10%;
+}
+
+.card-section {
+    display: flex;
+}
+
+.History-container {
+    justify-content: center;
+    margin-top: 50px;
+    display: flex;
+}
+
+.card {
+    margin-left: 5px;
+}
+
+
+/*media query*/
+
+@media screen and (max-width: 793px) {
+    .logo-header {
+        font-size: 50px;
+    }
+    .nav-bar-name {
+        font-size: 30px;
+    }
+    .nav-bar-history {
+        width: 150PX;
+        height: 40px;
+    }
+}
