@@ -5,12 +5,23 @@
     box-sizing: border-box;
     font-family: 'Inclusive Sans', sans-serif;
 }
+<<<<<<< HEAD
 /*header*/
+=======
+
+
+/*header*/
+
+>>>>>>> 4962e4d68d786949d41b14d2cb2a363738069a10
 .top-container {
     width: 100vw;
     height: 100vh;
     margin-top: 12%;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4962e4d68d786949d41b14d2cb2a363738069a10
 .logo-header {
     text-align: center;
     padding: 80px;
@@ -19,7 +30,14 @@
     color: rgb(208, 129, 68);
     text-shadow: 2px 4px rgb(125, 125, 125);
 }
+<<<<<<< HEAD
 /*nav bar*/
+=======
+
+
+/*nav bar*/
+
+>>>>>>> 4962e4d68d786949d41b14d2cb2a363738069a10
 .nav-bar {
     width: 70%;
     margin-top: 50px;
@@ -27,12 +45,20 @@
     display: flex;
     justify-content: space-evenly;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4962e4d68d786949d41b14d2cb2a363738069a10
 #nav-bar-logo {
     width: 75px;
     height: 80px;
     margin-left: 100px;
     margin-bottom: 15pz;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4962e4d68d786949d41b14d2cb2a363738069a10
 .nav-bar-name {
     margin-top: 2%;
     text-decoration: none;
@@ -42,6 +68,10 @@
     color: rgb(208, 129, 68);
     text-shadow: 1px 2px rgb(125, 125, 125);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4962e4d68d786949d41b14d2cb2a363738069a10
 .nav-bar-history {
     margin-top: 25px;
     width: 105px;
@@ -53,20 +83,39 @@
     color: white;
     cursor: pointer;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4962e4d68d786949d41b14d2cb2a363738069a10
 .nav-bar-history:hover {
     border: 2px solid black;
     transition: 1s;
 }
+<<<<<<< HEAD
 /*main */
+=======
+
+
+/*main */
+
+>>>>>>> 4962e4d68d786949d41b14d2cb2a363738069a10
 main {
     display: flex;
     justify-content: center;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4962e4d68d786949d41b14d2cb2a363738069a10
 .main-heading {
     margin-top: 30px;
     font-size: 40px;
     position: relative;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4962e4d68d786949d41b14d2cb2a363738069a10
 .main-input {
     position: absolute;
     margin-top: 90px;
@@ -76,22 +125,38 @@ main {
     padding: 15px;
     font-size: 20px;
 }
+<<<<<<< HEAD
 .main-input:hover {
     border: 2px orange solid;
 }
+=======
+
+.main-input:hover {
+    border: 2px orange solid;
+}
+
+>>>>>>> 4962e4d68d786949d41b14d2cb2a363738069a10
 .search-icon {
     position: absolute;
     margin-top: 95px;
     margin-left: 480px;
     cursor: pointer;
 }
+<<<<<<< HEAD
 /*result*/
+=======
+
+
+/*result*/
+
+>>>>>>> 4962e4d68d786949d41b14d2cb2a363738069a10
 .result-info {
     margin-top: 7%;
     text-align: center;
     font-size: 35px;
     color: rgb(55, 255, 55);
 }
+<<<<<<< HEAD
 /*history section*/
 .History-section {
     margin-top: 10%;
@@ -101,14 +166,40 @@ main {
 }
 .History-container {
     flex-wrap: wrap;
+=======
+
+
+/*history section*/
+
+.History-section {
+    margin-top: 10%;
+}
+
+.card-section {
+    display: flex;
+}
+
+.History-container {
+>>>>>>> 4962e4d68d786949d41b14d2cb2a363738069a10
     justify-content: center;
     margin-top: 50px;
     display: flex;
 }
+<<<<<<< HEAD
 .card {
     margin-left: 5px;
 }
 /*media query*/
+=======
+
+.card {
+    margin-left: 5px;
+}
+
+
+/*media query*/
+
+>>>>>>> 4962e4d68d786949d41b14d2cb2a363738069a10
 @media screen and (max-width: 793px) {
     .logo-header {
         font-size: 50px;
@@ -120,4 +211,8 @@ main {
         width: 150PX;
         height: 40px;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 4962e4d68d786949d41b14d2cb2a363738069a10
