@@ -25,7 +25,6 @@ function localStorageHistroy(result) {
     if (localStorageItems === 0) {
         localStorageItems = 3;
     }
-    // }
 }
 document.querySelector('.nav-bar-history').addEventListener('click', () => {
     let HistoryContainerCard = document.querySelector('#history-view');
